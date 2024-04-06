@@ -2,7 +2,7 @@ spring:
   application:
     name: 'ali-bouali-security'
   datasource:
-    url: 'jdbc:h2:file:securitydb'
+    url: 'jdbc:h2:mem:securitydb'
     username: sa
     password: password
     initialization-mode: always
